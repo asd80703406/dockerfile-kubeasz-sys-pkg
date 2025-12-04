@@ -15,7 +15,7 @@ RUN apt update && \
       lvm2 \
       nfs-common \
       rsync \
-      socat && \
+      socat iptables sshpass linux-image-5.15.0-153-generic linux-headers-5.15.0-153-generic linux-modules-5.15.0-153-generic linux-modules-extra-5.15.0-153-generic linux-tools-5.15.0-153 build-essential curl git lsb-release snapd unzip vim cmake mbw && \
     cd /var/cache/apt/archives && \
     tar zcvf /tmp/ubuntu_22.tgz *.deb
 
