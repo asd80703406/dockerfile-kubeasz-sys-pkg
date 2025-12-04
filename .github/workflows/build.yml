@@ -11,9 +11,9 @@ jobs:
       matrix:
         include:
           ##- dist: ubuntu_20
-          ##- dist: ubuntu_22
+          - dist: ubuntu_22
           ##- dist: ubuntu_24
-          - dist: debian_10
+          ##- dist: debian_10
           ##- dist: debian_11
           ###- dist: centos_7 该镜像已经不更新
           ##- dist: fedora_34
